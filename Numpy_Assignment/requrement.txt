@@ -1,0 +1,7 @@
+Flask
+ipykernel
+pandas
+matplotlib
+seaborn
+numpy
+render_template
