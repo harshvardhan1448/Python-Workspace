@@ -10,7 +10,7 @@ def welcome():
 
 @app.route("/index")
 def Index():
-    return "Welcome to the Flask Index Page!"
+    return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(debug = True)
