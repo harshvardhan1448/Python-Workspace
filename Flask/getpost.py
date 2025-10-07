@@ -18,6 +18,12 @@ def form():
         name = request.form["name"]
         return f"Hello, {name}!"
     return render_template("form.html")
+@app.route("/Submit", methods=["GET", "POST"])
+def Submit():
+    if request.method == "POST":
+        name = request.form["name"]
+        return f"Hello, {name}!"
+    return render_template("form.html")
        
 
 if __name__ == "__main__":
